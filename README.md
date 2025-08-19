@@ -9,13 +9,6 @@
 
 ---
 
-## Design Statistics
-- **Chip area (from synthesis)** → 1445.136 µm²  
-- **Cell count (from synthesis)** → 160  
-- **Die/Core area (from floorplan)** → 80.445 × 91.165 µm² and 4692 µm²  
-
----
-
 ## Flow Steps
 1. Synthesis of RTL  
 2. Floorplanning & placement  
@@ -31,15 +24,16 @@
 - Open **`alu8bit.gds`** in KLayout for visualization  
 - Open **`alu8bit.magic.gds`** in Magic for editing/debug  
 
-**GDSII Snapshot:**  
+## Design Details
 
-![alu8bit GDS Layout](alu8bit.gds.png)
-
----
-
-## Verification
-- **DRC Report**: `drc.rpt` → Clean  
-- **LVS Report**: `32-alu8bit.lvs.rpt` →  Matched (LVS Clean)  
+| Metric                | ALU 8-bit   |
+|------------------------|-------------|
+| Chip Area (synth)      | 1445.136 µm² |
+| Cell Count (synth)     | 160          |
+| Die/Core Area          | 80.445 × 91.165 µm² (4692 µm²) |
+| DRC Status             | ✅ Clean     |
+| LVS Status             | ✅ Clean     |
+| GDS Snapshot           | ![alu8bit](alu8bit.gds.png) |
 
 ---
 
