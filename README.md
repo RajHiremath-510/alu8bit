@@ -42,7 +42,7 @@
 ---
 
 ## Verification
-- **DRC Report**: `drc.rpt` → ✅Clean  
+- **DRC Report**: `drc.rpt` → Clean  
 - **LVS Report**: `32-alu8bit.lvs.rpt` →  Matched (LVS Clean)  
 
 ---
