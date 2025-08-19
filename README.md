@@ -17,9 +17,11 @@
 ---
 
 ## Folder Structure
-- `src/` : Verilog RTL files  
-- `config.json` : OpenLane configuration file  
-- `runs/run1/results/signoff/` : Final GDS and signoff reports  
+├── results/ # Final GDS, reports, and signoff outputs
+├── README.md # Project documentation
+├── alu8bit.gds.png # GDS snapshot (for visualization in README)
+├── alu8bit.v # Verilog RTL file for 8-bit ALU
+└── config.json # OpenLane configuration file
 
 ---
 
@@ -37,7 +39,10 @@
 ## Final Layout
 - Open **`alu8bit.gds`** in KLayout for visualization  
 - Open **`alu8bit.magic.gds`** in Magic for editing/debug  
-  
+
+**GDSII Snapshot:**  
+
+![alu8bit GDS Layout](alu8bit.gds.png)
 
 ---
 
