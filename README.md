@@ -17,11 +17,11 @@
 ---
 
 ## Folder Structure
-├── results/ # Final GDS, reports, and signoff outputs
-├── README.md # Project documentation
-├── alu8bit.gds.png # GDS snapshot (for visualization in README)
-├── alu8bit.v # Verilog RTL file for 8-bit ALU
-└── config.json # OpenLane configuration file
+├── results/ # 
+├── README.md # 
+├── alu8bit.gds.png #
+├── alu8bit.v # 
+└── config.json # 
 
 ---
 
