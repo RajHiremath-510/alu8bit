@@ -50,3 +50,6 @@
 ## Repository
 ```bash
 git clone https://github.com/RajHiremath-510/alu8bit_openlane.git
+
+## Installation 
+Refer to the video for OpenLane installation https://youtu.be/nBz9oFpbTv4?si=MG42k84mPf74VmUy
