@@ -16,15 +16,6 @@
 
 ---
 
-## Folder Structure
-├── results/ # 
-├── README.md # 
-├── alu8bit.gds.png #
-├── alu8bit.v # 
-└── config.json # 
-
----
-
 ## Flow Steps
 1. Synthesis of RTL  
 2. Floorplanning & placement  
