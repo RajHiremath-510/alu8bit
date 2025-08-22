@@ -31,8 +31,8 @@
 | Chip Area (synth)      | 1445.136 µm² |
 | Cell Count (synth)     | 160          |
 | Die/Core Area          | 80.445 × 91.165 µm² (4692 µm²) |
-| DRC Status             | ✅ Clean     |
-| LVS Status             | ✅ Clean     |
+| DRC Status             |  Clean     |
+| LVS Status             |  Clean     |
 | GDS Snapshot           | ![alu8bit](alu8bit.gds.png) |
 
 ---
